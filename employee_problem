@@ -29,6 +29,7 @@ function getWorkingHours() {
 	esac
 	echo $empHrs
 }
+
 function calculateDailyWage() {
 	local workHours=$1
 	wages=$(( $workHours * $empRatePerHr ))
